@@ -1,0 +1,11 @@
+{
+    "builds": [
+      {
+        "src": "todo-list/wp-scripts.config.js",
+        "use": "@vercel/static-build",
+        "config": { "distDir": "todo-list/build" }
+      }
+    ],
+    "outputDirectory": "todo-list/build"
+  }
+  
